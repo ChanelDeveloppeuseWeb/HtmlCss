@@ -3,8 +3,7 @@ body{
     color: white;
 }
 .banniere{
-    background-image: url(../images/etudiant-commerce-prenant-notes-lors-webinaire-ligne-ordinateur-portable-faisant-du-travail-distance-cours-education-distance-travailler-distance-au-demarrage-apprendre-travail-independant-moderne-maison.jpg);
-    background-size: cover;
+    background-image: url(../images/etudiant-commerce-prenant-notes-lors-webinaire-ligne-ordinateur-portable-faisant-du-travail-distance-cours-education-distance-travailler-distance-au-demarrage-apprendre-travail-independant-moderne-maison.jpg) cover center;
     width: 100%;
     height: 500px;
 }
