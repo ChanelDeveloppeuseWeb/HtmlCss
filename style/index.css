@@ -247,3 +247,7 @@ td, th {
   border: 1px solid black;
   padding: 15px;
 }
+@media screen and (max-width: 1200px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+  /* max-width: et min-width: sont appelles les points de ruptures; ou breakpoints */
+  }
