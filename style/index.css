@@ -45,4 +45,11 @@ li {
     
 .elem3 {
     font-size: 2em;
-    }
+}
+
+.border_radius{
+    background-color: rgb(13, 245, 237);
+    padding: 100px;
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+    width: 150px;
+}
