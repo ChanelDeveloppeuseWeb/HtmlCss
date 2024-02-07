@@ -53,3 +53,12 @@ li {
     border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
     width: 150px;
 }
+/* https://9elements.github.io/fancy-border-radius/#30.30.0.30--. lien permettant de gerer les formes */
+.box_shadow{
+    background-color: #663399;
+    padding: 100px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    
+}
