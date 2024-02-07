@@ -7,9 +7,14 @@ body{
     background-attachment: fixed;
     background-position: center;
     padding: 100px;
+  
 }
+
+/* px est une valeur absolue
+em est une valeur relatif */
+
 p{
-    color: aquamarine;
+    color: blueviolet;
     font-size: 15px;
 }
 .ma-classe {
@@ -17,19 +22,17 @@ p{
 }
 a{
     color: black;
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 #logo{
     width: 100px;
     height: 100px;
 }
-
-li{
+li {
     list-style: none;
     padding-left: 15px;
 }
-.navigation{
+.navigation a{
     display: flex;
     
 }
@@ -37,11 +40,221 @@ li{
     font-size: 1em;
     }
     
-    .elem2 {
+.elem2 {
     font-size: 1.3em;
     }
     
-    .elem3 {
+.elem3 {
     font-size: 2em;
-    }
+}
 
+.border_radius{
+    background-color: rgb(13, 245, 237);
+    padding: 100px;
+    border-radius: 30% 70% 70% 30% / 30% 58% 42% 70%;
+    width: 150px;
+}
+/* https://9elements.github.io/fancy-border-radius/#30.30.0.30--. lien permettant de gerer les formes */
+.box_shadow{
+    background-color: #663399;
+    padding: 100px;
+    width: 150px;
+    border-radius: 50px;
+    box-shadow: 6px 6px 25px rgba(0, 0, 0, 0.5);
+    
+}
+h3{
+    text-shadow: 10px 4px 0px rgba(0,0,0,0.2);
+    padding: 100px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.joinBtn {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+  .joinBtn1 {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+  .joinBtn2 {
+    width: 10em;
+    height: 5ex;
+    background-image: linear-gradient(135deg, #f34079 40%, #fc894d);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+  }
+
+  
+  .joinBtn:active {
+    box-shadow: 2px 2px 5px #fc894d;
+  }
+  .joinBtn1:focus {
+    box-shadow: 2px 2px 5px #fc894d;
+  }
+  .text{
+    margin: auto;
+    text-align: center;
+    width: 400px;
+  }
+  .container{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: nowrap pas de retour a la ligne */
+    /* flex-wrap: wrap  retour a la ligne lorsqu il ya plus d espace */
+  }
+  .conteneur{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .box{
+    height: 150px;
+    width: 100%;
+    background-color: cornflowerblue;
+  }
+.contenu{
+   display: grid;
+   grid-template-columns: 100px 100px 100px 100px 100px; 
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 10px;
+   margin-top: 120px;
+
+}
+.box1{
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    height: 150px;
+    background-color: cornflowerblue;
+}  
+.box2{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box4{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box3{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box7{
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box5{
+    grid-column: 2 / 4;
+    grid-row: 3 / 4;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box6{
+    grid-column: 1/3;
+    grid-row: 4 / 5;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.box8{
+grid-column: 1 / 4;
+height: 150px;
+background-color: cornflowerblue;
+}
+
+.contenu {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .un {
+    grid-column: 1 / 3;
+    grid-row: 1;
+  }
+  .deux {
+    grid-column: 2 / 4;
+    grid-row: 1 / 3;
+  }
+  .trois {
+    grid-column: 1;
+    grid-row: 2 / 5;
+  }
+  .quatre {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .cinq {
+    grid-column: 2;
+    grid-row: 4;
+  }
+  .six{
+    grid-column: 3;
+    grid-row: 4;
+  }
+  
+  .layouts {
+    position: relative;
+    height: 300px;
+    width: 300px;
+}
+
+.une {
+    background-color: #C2B0F9;
+    position: absolute;
+    left: 0;
+    top: 90px;
+}
+
+.deux {
+    background-color: #CBFCB9;
+    position: absolute;
+    right: 70px;
+    top: 0;
+}
+
+.trois {
+    background-color: #F2A3BB;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  border: 1px solid black;
+  padding: 15px;
+}
+@media screen and (max-width: 1200px) {
+  /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+  /* max-width: et min-width: sont appelles les points de ruptures; ou breakpoints */
+  }
+
+  /* Sur les écrans, quand la largeur de la fenêtre fait au maximum 1280px */
+@media screen and (max-width: 1280px)
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+/* @media all and (min-width: 1024px) and (max-width: 1280px) */
+/* Sur tous types d'écrans orientés verticalement */
+/* @media all and (orientation: portrait) */
