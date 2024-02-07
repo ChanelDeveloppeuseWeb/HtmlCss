@@ -238,3 +238,12 @@ background-color: cornflowerblue;
     right: 0;
     bottom: 10px;
 }
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+td, th {
+  border: 1px solid black;
+  padding: 15px;
+}
