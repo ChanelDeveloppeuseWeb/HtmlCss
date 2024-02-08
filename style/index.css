@@ -111,7 +111,7 @@ h3{
   }
   .text{
     margin: auto;
-    text-align: center;
+    text-align: justify;
     width: 400px;
   }
   .container{
@@ -246,6 +246,9 @@ table {
 td, th {
   border: 1px solid black;
   padding: 15px;
+}
+caption{
+caption-side: bottom;
 }
 @media screen and (max-width: 1200px) {
   /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
